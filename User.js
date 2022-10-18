@@ -23,7 +23,7 @@ class User {
     }
 
     getBooksNames() {
-        this.books.length.title;
+        this.books.map(el => console.log(el.title));
     }
 
 }
@@ -40,4 +40,5 @@ console.log(user1.addBook("Harry Potter", "JK Rowling"));
 console.log(user1.books);
 console.log(user1.pets);
 console.log(user1.countPets());
-console.log(user1.getBooksNames());
+user1.getBooksNames();
+
