@@ -11,3 +11,23 @@ app.use(express.static("public"));
 app.listen(PORT, () => {
     console.log(`Server is listenig on port ${PORT}`)
 })
+
+app.get("/api/productos", (req, res) => {
+
+})
+
+app.get("api/productos/:id", (req, res) => {
+
+})
+
+app.post("/api/productos", (req, res) => {
+
+})
+
+app.put("/api/productos/:id", (req, res) => {
+
+})
+
+app.delete("/api/productos/:id", (req, res) => {
+    
+})
