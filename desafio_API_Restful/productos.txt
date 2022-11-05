@@ -1,0 +1,38 @@
+[
+  {
+    "title": "zapatilla deportiva",
+    "price": 10000,
+    "thumbnail": "https://contents.mediadecathlon.com/p2175064/k$a323df0c88381a47cf8c79a3a38aeb5f/sq/chaussures.jpg?format=auto&f=800x0",
+    "id": 2
+  },
+  {
+    "title": "Camisa deportiva",
+    "price": 500,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_822877-MLA46374685703_062021-W.jpg",
+    "id": 3
+  },
+  {
+    "title": "Jambon de pays",
+    "price": 20,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_822877-MLA46374685703_062021-W.jpg",
+    "id": 4
+  },
+  {
+    "title": "Mario Bros",
+    "price": 2000,
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_822877-MLA46374685703_062021-W.jpg",
+    "id": 5
+  },
+  {
+    "Title": "Test",
+    "Price": "100",
+    "Thumbnail": "devcwdsevfderfvg",
+    "id": 6
+  },
+  {
+    "Title": "Video game",
+    "Price": "50",
+    "Thumbnail": "url:'fcefefedfedfefedf'",
+    "id": 7
+  }
+]
