@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <%- include("./partials/nav.ejs") %>
+    <h2><%= msg %></h2>
+
+    <form method="post" action="/products">
+        <label>Title</label>
+        <input name="title">
+
+        <label>Price</label>
+        <input name="price">
+
+        <label>Image</label>
+        <input name="thumbnail">
+
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>

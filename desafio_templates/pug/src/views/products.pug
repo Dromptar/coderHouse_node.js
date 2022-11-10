@@ -1,0 +1,20 @@
+html 
+    head 
+        title Products
+        link(rel="stylesheet", href="style.css")
+    body 
+        h2 Here are your products! 
+        
+        
+    table.table.table-striped
+      tr
+        th Title
+        th Price
+        th Thumbnail
+
+      each prod in products
+        tr
+          td= prod.title
+          td= prod.price
+          td 
+            img(src = prod.thumbnail id="thumbnail")

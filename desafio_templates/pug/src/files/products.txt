@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Zelda",
+    "price": "15 ",
+    "thumbnail": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal_image1600w.jpg",
+    "id": 1
+  },
+  {
+    "title": "MGS",
+    "price": "17",
+    "thumbnail": "https://i.blogs.es/1d9bb1/mgs/1366_2000.jpeg",
+    "id": 2
+  },
+  {
+    "title": "Crash bandicoot",
+    "price": "20",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a3/IAT_Crash_Bandicoot.png",
+    "id": 3
+  },
+  {
+    "title": "Mario",
+    "price": "8",
+    "thumbnail": "https://mario.nintendo.com/static/ec9366e4e9d5689c9dd098f47f6227a7/0a156/mario-stack-closed.png",
+    "id": 4
+  },
+  {
+    "title": "Halo",
+    "price": "50",
+    "thumbnail": "https://img.phonandroid.com/2021/12/halo-infinite-cinematique-supprimee.jpg",
+    "id": 5
+  }
+]
