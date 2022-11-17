@@ -1,0 +1,16 @@
+<h2>Products Page</h2>
+<div style="display:flex; width: 70%; margin: 0 auto;">
+    
+    {{#each products}}
+
+    <div class="card" style="width: 18rem;">
+        <img width="100" src="{{this.thumbnail}}" alt="">
+        <div class="card-body">
+            <h5 class="card-title">{{this.title}}</h5>
+            <p class="card-text">Price: {{this.price}}</p>
+        </div>
+    </div>
+     
+
+    {{/each}}
+</div>

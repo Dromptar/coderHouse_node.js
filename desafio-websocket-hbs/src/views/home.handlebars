@@ -1,0 +1,23 @@
+<div>
+    <h2 style="text-align: center;">Home: Hello there!</h2>
+
+    <form id="productForm" action="/products" style="display: flex; display: flex; flex-direction: column; width: 200px; margin: 0 auto;" >
+        <label>Title</label>
+        <input name="title" id="title">
+
+        <label>Price</label>
+        <input name="price" id="price">
+
+        <label>Image</label>
+        <input name="thumbnail" id="thumbnail">
+
+        <button type="submit" style="margin-top: 10px; background-color:aquamarine;">Save</button>
+    </form>
+</div>
+
+<div id="productsContainer"></div>
+
+{{!-- Import scripts  --}}
+{{> importScripts }}
+<script src="/socket.io/socket.io.js"></script>
+<script src="home.js"></script>
